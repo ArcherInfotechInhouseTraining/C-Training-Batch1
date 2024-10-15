@@ -1,0 +1,45 @@
+1.	In switch statement, each case instance value must be _______?
+A.	Constant
+
+B.	Variable
+
+C.	Special Symbol
+
+D.	None of the avobe
+
+Answer : A
+
+2. What will be the output of the following program ?
+#include
+
+void main()
+
+{ int a = 2;
+
+switch(a)
+
+{ case 1:
+
+printf("goodbye"); break;
+
+case 2:
+
+continue;
+
+case 3:
+
+printf("bye");
+
+}
+
+}
+
+a) error
+
+b) goodbye
+
+c) bye
+
+d) byegoodbye
+
+Ans: a

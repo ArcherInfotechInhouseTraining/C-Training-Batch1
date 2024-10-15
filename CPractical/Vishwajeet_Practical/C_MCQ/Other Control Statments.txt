@@ -1,0 +1,12 @@
+1. What will be the output of the following statements ?
+int a=5,b=6,c=9,d; d=(ac?1:2):(c>b?6:8)); printf("%d",d);
+
+a) 1
+
+b) 2
+
+c) 6
+
+d) Error
+
+Ans: d

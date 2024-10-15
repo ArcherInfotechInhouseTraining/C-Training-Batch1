@@ -1,0 +1,119 @@
+1.	perror( ) function used to ?
+
+A.	Work same as printf()
+
+B.	prints the error message specified by the compiler
+
+C.	prints the garbage value assigned by the compiler
+
+D.	None of the above
+
+	Answer : B
+
+2.	What is function?
+
+A.	Function is a block of statements that perform some specific task.
+
+B.	Function is the fundamental modular unit. A function is usually designed to perform a specific task.
+
+C.	Function is a block of code that performs a specific task. It has a name and it is reusable
+
+D.	All the above
+
+	Answer : D
+
+3.	Recursive functions are executed in a?
+
+A.	First In First Out Order
+
+B.	Load Balancing
+
+C.	Parallel Fashion
+
+D.	Last In First Out Order
+
+	Answer : D
+
+4.	The Default Parameter Passing Mechanism is called as
+
+A.	Call by Value
+
+B.	Call by Reference
+
+C.	Call by Address
+
+D.	Call by Name
+
+	Answer : A
+
+5.	#include 
+	void func()
+	{
+	int x = 0;
+	static int y = 0;
+	x++; y++;
+	printf( "%d -- %d\n", x, y );
+	}
+	int main()
+	{
+	func();
+	func();
+	return 0;
+	} 	
+	a)
+
+	1 -- 1
+
+	1 -- 1
+
+	b)
+
+	1 -- 1
+
+	2 -- 1
+
+	c)
+
+	1 -- 1
+
+	2 -- 2
+
+	d)
+
+	1 -- 1
+
+	1 -- 2
+
+	Ans: d
+
+
+
+6. long factorial (long x)
+{
+????
+return x * factorial(x - 1);
+}
+With what do you replace the ???? to make the function shown above return the correct answer?
+a)
+
+if (x == 0) return 0;
+
+b)
+
+return 1;
+
+c)
+
+if (x >= 2) return 2;
+
+d)
+
+if (x <= 1) return 1;
+
+Ans: d
+
+
+
+
+
+

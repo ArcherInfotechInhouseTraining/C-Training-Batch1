@@ -1,0 +1,85 @@
+1.	What is the right way to access value of structure variable book{ price, page }?
+A.	printf("%d%d", book.price, book.page);
+
+B.	printf("%d%d", price.book, page.book);
+
+C.	printf("%d%d", price::book, page::book);
+
+D.	printf("%d%d", price->book, page->book);
+
+Answer : A
+
+2. What will be output if you will compile and execute the following c code?
+struct marks{
+
+int p:3;
+
+int c:3;
+
+int m:2;
+
+};
+
+void main(){
+
+struct marks s={2,-6,5};
+
+printf("%d %d %d",s.p,s.c,s.m); 
+
+}
+
+(a) 2 -6 5
+
+(b) 2 -6 1
+
+(c) 2 2 1
+
+(d) Compiler error
+
+(e) None of these
+
+Ans: c
+
+3. struct { 
+    short s[5];
+    union { 
+         float y; 
+         long z; 
+    }u; 
+} t;
+
+Assume that objects of the type short, float and long occupy 2 bytes, 4 bytes and 8 bytes, respectively. The memory requirement for variable t, ignoring alignment considerations, is (GATE CS 2000)
+ 
+
+a.22 bytes
+ 
+
+b.14 bytes
+ 
+
+c.18 bytes
+ 
+
+d.10 bytes
+
+
+4 . What will be the output of the following C function?
+
+    #include <stdio.h>
+    enum birds {SPARROW, PEACOCK, PARROT};
+    enum animals {TIGER = 8, LION, RABBIT, ZEBRA};
+    int main()
+    {
+        enum birds m = TIGER;
+        int k;
+        k = m;
+        printf("%d\n", k);
+        return 0;
+    }
+a) 0
+b) Compile time error
+c) 1
+d) 8
+ ANSWER : d
+
+
