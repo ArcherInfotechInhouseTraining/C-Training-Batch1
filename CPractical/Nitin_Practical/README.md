@@ -1,5 +1,5 @@
 
-# C_ASSIGNMENTS NOV.23 Vishwajeet Pawar
+# C_ASSIGNMENTS June 24 Nitin Vhankhande
 
 # C Programming Exercises
 
