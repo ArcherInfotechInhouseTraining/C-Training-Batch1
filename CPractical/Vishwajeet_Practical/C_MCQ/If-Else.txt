@@ -1,0 +1,28 @@
+1. void main()
+{
+
+int a=10,b=20;
+
+char x=1,y=0;
+
+if(a,b,x,y)
+
+{
+
+printf("EXAM");
+
+}
+
+}
+
+What is the output?
+
+a) XAM is printed
+
+b) exam is printed
+
+c) Compiler Error
+
+d) Nothing is printed
+
+Ans: d

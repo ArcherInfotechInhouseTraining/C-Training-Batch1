@@ -1,0 +1,57 @@
+1.	Which one of the following sentences is true ?
+A.	The body of a while loop is executed at least once.
+
+B.	The body of a do ... while loop is executed at least once.
+
+C.	The body of a do ... while loop is executed zero or more times.
+
+D.	A for loop can never be used in place of a while loop.
+
+Answer : B
+
+
+
+2. What is the output of the following code?
+#include
+
+void main()
+
+{
+
+int s=0;
+
+while(s++<10)>
+
+# define a 10
+
+main()
+
+{
+
+printf("%d..",a);
+
+foo();
+
+printf("%d",a);
+
+}
+
+void foo()
+
+{
+
+#undef a
+
+#define a 50
+
+}
+
+a) 10..10
+
+b) 10..50
+
+c) Error
+
+d) 0
+
+Ans: c

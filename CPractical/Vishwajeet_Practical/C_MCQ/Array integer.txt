@@ -1,0 +1,59 @@
+1.	What is an array?
+A.	An array is a collection of variables that are of the dissimilar data type.
+
+B.	An array is a collection of variables that are of the same data type.
+
+C.	An array is not a collection of variables that are of the same data type.
+
+D.	None of the above.
+
+Answer : B
+
+
+2.	What is right way to Initialization array?
+A.	int num[6] = { 2, 4, 12, 5, 45, 5 } ;
+
+B.	int n{} = { 2, 4, 12, 5, 45, 5 } ;
+
+C.	int n{6} = { 2, 4, 12 } ;
+
+D.	int n(6) = { 2, 4, 12, 5, 45, 5 } ;
+
+Answer : A
+
+
+3.	An array elements are always stored in _________ memory locations.
+A.	Sequential
+
+B.	Random
+
+C.	Sequential and Random
+
+D.	None of the above
+
+Answer : A
+
+
+4. What will be the output of the following statements ?
+int x[4] = {1,2,3}; printf("%d %d %D",x[3],x[2],x[1]);
+
+a) 03%D
+
+b) 000
+
+c) 03D
+
+d) 321
+
+Ans: c
+
+5.What will happen if in a C program you assign a value to an array element whose subscript exceeds the size of array?
+A. The element will be set to 0.
+
+B. The compiler would report an error.
+
+C. The program may crash if some important data gets overwritten.
+
+D. The array size would appropriately grow.
+
+Ans:  C

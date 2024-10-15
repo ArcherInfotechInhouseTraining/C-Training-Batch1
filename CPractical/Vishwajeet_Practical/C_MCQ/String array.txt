@@ -1,0 +1,49 @@
+1. What would be the output of the following program?
+#include 
+
+main()
+
+{
+
+char str[]="S\065AB";
+
+printf("\n%d", sizeof(str));
+
+}
+
+a) 7
+
+b) 6
+
+c) 5
+
+d) error
+
+Ans: b
+
+
+ 2. What will be output if you will compile and execute the following c code?
+#include "string.h"
+
+void main(){
+
+clrscr();
+
+printf("%d %d",sizeof("string"),strlen("string"));
+
+getch();
+
+}
+
+(a) 6 6
+
+(b) 7 7
+
+(c) 6 7
+
+(d) 7 6 
+
+(e) None of these
+
+Answer: (d)
+

@@ -1,0 +1,105 @@
+1.	Which of the following is allowed in a C Arithmetic instruction
+A.	[]
+
+B.	{}
+
+C.	()
+
+D.	None of the above
+
+Answer : C
+
+
+2.	Which of the following shows the correct hierarchy of arithmetic operations in C
+A.	/ + * -
+
+B.	* - / +
+
+C.	+ - / *
+
+D.	* / + -
+
+Answer : D
+
+
+3.	Bitwise operators can operate upon?
+A.	double and chars
+
+B.	floats and doubles
+
+C.	ints and floats
+
+D.	ints and chars
+
+Answer : D
+
+4.	Which operators are known as Ternary Operator?
+A.	::, ?
+
+B.	?, :
+
+C.	?, ;;
+
+D.	None of the avobe
+
+Answer : B
+
+
+5. What will be the output of the following arithmetic expression ?
+5+3*2%10-8*6
+
+a) -37
+
+b) -42
+
+c) -32
+
+d) -28
+
+Ans: a
+
+***Right shift operator
+6. What will be the output of the following program ?
+#include
+
+void main()
+
+{
+
+int a = 36, b = 9;
+
+printf("%d",a>>a/b-2);
+
+}
+
+a) 9
+
+b) 7
+
+c) 5
+
+d) none of these
+
+Ans: a
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

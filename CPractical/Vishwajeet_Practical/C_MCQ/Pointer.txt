@@ -1,0 +1,172 @@
+1.	The _______ memory allocation function modifies the previous allocated space.
+A.	calloc
+
+B.	free
+
+C.	malloc
+
+D.	realloc
+
+Answer : D
+
+2.	Which is the correct syntax to declare constant pointer?
+A.	int *const constPtr;
+
+B.	*int constant constPtr;
+
+C.	const int *constPtr;
+
+D.	A and C both
+
+Answer : D
+
+3. What will be the output of following program ?
+#include
+
+main()
+
+{
+
+int x,y = 10;
+
+x = y * NULL;
+
+printf("%d",x);
+
+}
+
+a) error
+
+b) 0
+
+c) 10
+
+d) garbage value
+
+Ans: b
+
+
+4. What will be the output of following statements ?
+char x[ ] = "hello hi"; printf("%d%d",sizeof(*x),sizeof(x));
+
+a) 8 8
+
+b) 1 8
+
+c) 2 9
+
+d) 1 9
+
+Ans: d
+
+5. What is the output of this program?
+  main()
+
+{
+
+struct
+
+{
+
+int i;
+
+}xyz;
+
+(*xyz)->i=10;
+
+printf("%d",xyz.i);
+
+}
+
+a) program will not compile
+
+b) 10
+
+c) god only knows
+
+d) address of I
+
+Ans: b
+
+
+
+6. int y[4] = {6, 7, 8, 9};
+int *ptr = y + 2; printf("%d\n", ptr[ 1 ] );
+What is printed when the sample code above is executed?
+a) 6
+
+b) 7
+
+c) 8
+
+d) 9 
+
+Ans: d
+
+
+
+7.What will be output if you will compile and execute the following c code?
+ 
+
+void main(){
+
+int huge*p=(int huge*)0XC0563331;
+
+int huge*q=(int huge*)0xC2551341;
+
+*p=200;
+
+printf("%d",*q); 
+
+}
+
+(a)0
+
+(b)Garbage value
+
+(c)null
+
+(d) 200
+
+(e)Compiler error
+	Answer: 200
+
+
+8.What will be output if you will compile and execute the following c code?
+struct marks{
+
+int p:3;
+
+int c:3;
+
+int m:2;
+
+};
+
+void main(){
+
+struct marks s={2,-6,5};
+
+printf("%d %d %d",s.p,s.c,s.m); 
+
+}
+
+(a) 2 -6 5
+
+(b) 2 -6 1
+
+(c) 2 2 1
+
+(d) Compiler error
+
+(e) None of these
+
+Answer: (c)
+
+Explanation:
+	s.p: 2 in binary is 010. Since p is a 3-bit bit-field, it takes the least significant 3 bits, resulting in 010, which is 2 in decimal.
+s.c: -6 in binary is 11111010. Since c is a 3-bit bit-field, it takes the least significant 3 bits, resulting in 010, which is 2 in decimal due to two's complement representation.
+s.m: 5 in binary is 101. Since m is a 2-bit bit-field, it takes the least significant 2 bits, resulting in 01, which is 1 in decimal.
+So, the correct output is:
+(c) 2 2 1
+

@@ -1,0 +1,26 @@
+1.What will be output if you will compile and execute the following c code?
+int extern x;
+
+void main() 
+
+printf("%d",x);
+
+x=2;
+
+getch();
+
+}
+
+int x=23;
+
+(a) 0
+
+(b) 2
+
+(c) 23
+
+(d) Compiler error
+
+(e) None of these
+
+Answer: (c)

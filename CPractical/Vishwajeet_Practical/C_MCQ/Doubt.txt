@@ -1,0 +1,142 @@
+1. What will be the output of the following statement ?
+printf("%X%x%ci%x",11,10,'s',12);
+
+a) error
+
+b) basc
+
+c) Bas94c
+
+d) none of these
+
+Ans: b
+
+but in codeblock answer shows Basic
+
+
+2. What will be the output of the following statements ?
+
+int a = 5, b = 2, c = 10, i = a>b
+
+void main()
+
+{ printf("hello"); main(); }
+
+a) 1
+
+b) 2
+
+c) infinite number of times
+
+d) none of these
+
+Ans: c
+
+In Code block shows process returned means no output
+
+
+3. int testarray[3][2][2] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12};
+What value does testarray[2][1][0] in the sample code above contain?
+a) 11
+
+b) 7
+
+c) 5
+
+d) 9
+
+Ans: a
+
+
+4. int i = 4;
+
+switch (i)
+
+{
+
+default: ;
+
+case 3:
+
+i += 5;
+
+if ( i == 8) 
+
+{
+
+i++;
+
+if (i == 9) break;
+
+i *= 2; 
+
+} 
+
+i -= 4; 
+
+break; 
+
+ 
+
+case 8:
+
+i += 5;
+
+break;
+
+}
+
+printf("i = %d\n", i);
+
+What will the output of the sample code above be?
+
+a) i = 5
+
+b) i = 8
+
+c) i = 9
+
+d) i = 10
+
+Ans: a
+
+
+5.What will be output if you will compile and execute the following c code?
+void main(){
+
+static main;
+
+int x;
+
+x=call(main);
+
+clrscr();
+
+printf("%d ",x);
+
+getch();
+
+}
+
+int call(int address){
+
+address++;
+
+return address;
+
+}
+
+(a) 0
+
+(b) 1
+
+(c) Garbage value
+
+(d) Compiler error
+
+(e) None of these
+
+Answer: (b)
+
+ 
+
